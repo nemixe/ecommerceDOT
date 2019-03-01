@@ -1,0 +1,16 @@
+{
+  "name": "NextPSProject",
+  "short_name": "NextProject",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0f0f0",
+  "theme_color": "#ff6600",
+  "description": "A Boilerplate to make perfect webapp",
+  "icons": [
+    {
+      "src": "/static/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

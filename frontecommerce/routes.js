@@ -1,0 +1,10 @@
+const routes = require('next-routes')
+
+module.exports = routes()
+  .add('index', 'index', '/')
+  .add('login')
+  .add('register')
+  .add('cart')
+  .add('product', 'product', '/product/:id')
+  .add('stores')
+  .add('store-profile', 'store-profile', '/store-profile/:id')
